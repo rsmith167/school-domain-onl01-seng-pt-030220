@@ -23,11 +23,10 @@ class School
       @roster[grade]
     end
     def sort
-      
-    @roster.collect do |key|
-      
-      @roster[key].sort
-    
+      return_hash = {}
+    @roster.each do |key|
+      return_hash[key] =  @roster[key].sort
     end
+    return_hash
   end
 end
