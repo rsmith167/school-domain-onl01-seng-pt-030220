@@ -24,9 +24,9 @@ class School
     end
     def sort
     @roster.each do |key, values|
-      if @roster[key] != nil
+      
       @roster[key].sort
-    end
+    
     end
   end
 end
