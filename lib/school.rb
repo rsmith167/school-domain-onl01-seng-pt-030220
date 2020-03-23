@@ -25,5 +25,6 @@ class School
     def sort
     @school.each do |key|
       @school[key].sort
+    end
   end
 end
